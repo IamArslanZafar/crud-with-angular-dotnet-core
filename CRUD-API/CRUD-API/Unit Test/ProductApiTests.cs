@@ -4,8 +4,6 @@ using crud_product_api.Model;
 using crud_product_api.Services;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace crud_product_api.Unit_Test
