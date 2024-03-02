@@ -41,7 +41,7 @@ import { Observable } from 'rxjs';
           } else {
             this.toaster.error(result.message || 'Error occurred while fetching products.');
           }
-          console.log(this.productList);
+          // console.log(this.productList);
         },
         error: (error) => {
           //this.toaster.error(error);

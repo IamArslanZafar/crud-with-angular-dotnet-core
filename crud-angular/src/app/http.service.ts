@@ -8,7 +8,7 @@ import { Observable, catchError, throwError } from 'rxjs';
   providedIn: 'root',
 })
 export class HttpService {
-  apiUrl = 'https://localhost:7150';
+  apiUrl = 'http://localhost:5032';
   // http = inject(HttpClient);
   constructor(private http: HttpClient) {}
 
